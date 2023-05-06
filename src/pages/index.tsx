@@ -1,21 +1,5 @@
-import Link from "next/link";
+import { LayoutMain } from "@/components/layout";
 
 export default function Home() {
-  return (
-    <>
-      <header>
-        <Link
-          href={{
-            pathname: "/post/[id]",
-            query: {
-              id: "abc-xyz",
-            },
-          }}
-        >
-          Post Link
-        </Link>
-      </header>
-      <main>Hello NextJS</main>
-    </>
-  );
+  return <LayoutMain>Hello NextJS</LayoutMain>;
 }
