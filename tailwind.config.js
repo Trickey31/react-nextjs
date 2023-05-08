@@ -15,6 +15,9 @@ module.exports = {
         grayf4: "#F4F4F4",
         grayfc: "#FCFCFC",
       },
+      spacing: {
+        c10: "10px",
+      },
     },
   },
   plugins: [],
